@@ -1,0 +1,247 @@
+/* contentText font-family: 'Carrois Gothic SC', sans-serif; */
+/* displayText font-family: 'plainblacknormal';*/
+
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap');
+
+@font-face{
+    font-family: 'plainblacknormal';
+    src: url('Plain_Black-webfont.eot');
+    src: url('Plain_Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Plain_Black-webfont.woff') format('woff'),
+         url('Plain_Black-webfont.ttf') format('truetype'),
+         url('Plain_Black-webfont.svg#plainblacknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #fff;
+    width: 100%;
+    border: none;
+}
+
+html{
+    font-size: 16px;
+}
+
+/* html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  } */
+
+body{
+    width: 100%;
+    height: 2000px;
+    background-image: url('../img/mainBackground.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+h2{
+    font-size: 8rem;
+    opacity: 0.8;
+    z-index: 5;
+    text-shadow: 2px 2px 10px #000,
+                6px 6px 20px #000;
+}
+
+.container-fluid, .row{
+    padding: 0;
+    margin: 0;
+}
+
+/* HOME + ABOUT */
+
+#homePage{
+    width: 100%;
+    /* height: 2000px;
+    background-image: url('../img/mainBackground.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none; */
+}
+
+#intro{
+    height: 100vh;
+}
+
+h1{
+    font-family: 'plainblacknormal';
+    font-size: 8rem;
+    letter-spacing: 8px;
+    padding-top: 150px;
+    z-index: 2;
+}
+
+h1.sticky{
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    height: 500px;
+    width: 500px;
+    z-index: 1;
+}
+
+#logo.sticky{
+    position: sticky;
+    top: 0;
+}
+
+#about.sticky{
+    position: sticky;
+    top: 0;
+}
+
+#about p{
+    max-width: 800px;
+}
+
+
+#artistPage.sticky{
+    position: sticky;
+    top: 0;
+}
+
+#artistPage{
+    height: 100%;
+    background: white;
+    opacity: 0.7;
+    width: 100%;
+    z-index: 8;
+}
+
+#aDis a{
+    width: 100%;
+    opacity: 0.3;
+}
+
+#aDis a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* iDunno game */
+
+#ask p{
+    font-size: 2rem;
+}
+
+#askBtn{
+    color: #fff;
+    background-color: red;
+    font-size: 3rem;
+}
+
+#askBtn:hover{
+    color: red;
+    background-color: #fff;
+}
+
+.bookNow{
+    color: #000;
+    background-color: #fff;
+}
+
+#resultDisplay .container{
+    height: 800px;
+    width: 100%;
+}
+
+#result{
+    height: 500px;
+    width: 500px;
+    background-color: none;
+}
+
+
+
+
+
+
+    /* carousel */
+        /* #aCap, .carousel-item{
+            height: 1000px;
+            /* position: relative;
+            bottom: 200px; */
+        /* }  */
+
+        /* 
+        .carousel-indicators{
+            background-color: none;
+            border: none;
+            background-clip: none;
+            margin: 0;
+            padding-right: 80%;
+            text-indent: 0;
+            height: 100%;
+        }
+
+        .carousel-indicators li{
+            background-color: white;
+            border: none;
+            text-indent: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        .carousel-indicators li.active{
+            background-color: rgba(128, 0, 0, 0.9);
+        } */
+
+        /* .position-relative{
+            left: 200px;
+        } */
+
+
+/* CONTACT */
+
+#contact.sticky{
+    position: sticky;
+    top: 0;
+}
+
+#contact{
+    background-color: rgb(77, 0, 0);
+    z-index: 10;
+}
+
+#conInfo{
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 50px;
+}
+
+iframe{
+    margin:0 auto;
+    width: 100vw;
+    height: 500px;
+    z-index: 0;
+    opacity: 0.8;
+}
